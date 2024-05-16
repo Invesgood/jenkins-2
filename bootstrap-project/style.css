@@ -1,0 +1,26 @@
+#about {
+  background: rgba(220, 0, 0, 0.5) url("img/ninja.jpeg");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+#services img {
+  width: 100%;
+}
+
+@media screen and (min-width: 680px) {
+  #about {
+    background-position: center;
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #about {
+    background-position: center;
+    padding-top: 150px;
+  }
+}
